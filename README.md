@@ -46,4 +46,4 @@ Anual trend line for the period from 2008 to 2017: <br />
 * The biggest increase in attacks was of 26,7%, registered in 2011. <br />
  <br />
  
-
+For the purpose of data validation , 
