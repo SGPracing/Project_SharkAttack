@@ -12,6 +12,9 @@ Dataset: https://www.kaggle.com/teajay/global-shark-attacks <br />
 ### Secondary: ###
 * to find the acttack fatality rate for the top 10 activities (as a single variable) <br />
 
+## Methods ##
+The dataset *attacks.csv* was sourced from Shark Research Institute. Targetted data cleaning and analysis was performed under *Python* and *Pandas*. The entire process was carefully worked in order to allow statistical analysis as accurate as possible.
 
+## Results ##
 
 
