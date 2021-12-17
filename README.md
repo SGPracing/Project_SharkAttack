@@ -9,7 +9,7 @@ Dataset: https://www.kaggle.com/teajay/global-shark-attacks <br />
 * to verify if there is an obvious trend in the number of attacks per year in the last 10 years of collected data; <br />
 * to determine the top 10 most dangerous areas and activities; <br />
 
-### Secondary: ###
+#### Secondary: ####
 * to find the acttack fatality rate for the top 10 activities (as a single variable) <br />
 
 ## Background ##
@@ -20,5 +20,5 @@ Targetted data cleaning and analysis was performed under *Python* and *Pandas*. 
 
 ## Results ##
 
-### Trend of attacks throughout the last 10 years ###
+#### Trend of attacks throughout the last 10 years ####
 
