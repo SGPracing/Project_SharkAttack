@@ -38,8 +38,12 @@ The analysis was initially made for the period from 2009 to 2018. However, the n
 | 2009 |	120     |
 | 2008 |	122     |
 
-Anual trend line for the period from 2008 to 2017: <br />
- <br /> *insert plot here
+The graphic below illustrates well the significant data disparity in 2018 compared to previous years: <br />
+<img width="391" alt="image" src="https://user-images.githubusercontent.com/92320460/146643892-240be8b1-3971-4354-98df-5c6d70ffefe7.png">
+
+
+After exclusion of year 2018, the anual trend line for the period from 2008 to 2017: <br />
+<img width="379" alt="image" src="https://user-images.githubusercontent.com/92320460/146643766-67b3f96b-520c-440a-af0e-2851c77fbf34.png">
 
 ##### Key variations: #####
 * overall, there has been a small increase of around 11,5% in attacks from 2008 to 2017; <br />
@@ -127,7 +131,6 @@ It is also important to note that the variables 'area' and 'activity were analys
 * the top 10 most susceptible activities to shark attacks;
 * the CFR for each activity
 
-<img width="379" alt="image" src="https://user-images.githubusercontent.com/92320460/146643766-67b3f96b-520c-440a-af0e-2851c77fbf34.png">
 
 
 
