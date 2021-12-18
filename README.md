@@ -7,7 +7,8 @@ Dataset: https://www.kaggle.com/teajay/global-shark-attacks (attacks.csv) <br />
 ## Objectives
 #### Primary: ####
 * to verify if there is an obvious trend in the number of attacks per year in the last 10 years of collected data; <br />
-* to determine the top 10 most dangerous areas and activities; <br />
+* to determine the top 10 most dangerous activities; <br />
+* to identify the top 10 most dangerous areas in the last 10 years (2009 to 2018). <br />
 
 #### Secondary: ####
 * to stablish the case fatality rate (CFR) for the top 10 activities (as a single variable) <br />
@@ -68,21 +69,42 @@ The table below shows the total number of attacks per activity and their represe
 
 The 10 most recorded activities represents nearly 60% of the all dataset. Only surfing and swimming accounts for at least around 33% of all attacks recorded.<br />
 
-#### 3. Most dangerous areas ####
+#### 3. Most dangerous areas from 2009 to 2018 ####
 The variable 'area' in the dataset is extensive (**826 different areas**), with fairly little heterogeneity. Most variations were typos, which were easily detected, and adressed accordinly. <br />
+A verification was made to make sure that data was collected throughout the period for the ares in question. <br />
 
-The table below shows the total number of attacks per area and their representation ratio to the entire dataset:
+The table below shows the total number of attacks per area and their representation ratio:
 
-|         area  	       | attacks |   country    |
-| :-------------------: | :-----: |   :-----:    |
-| florida 	             |  1038   | usa          |
-| new south wales 	     |  486 	  | australia    |
-| queensland 	          |  311 	  | australia    |
-| hawaii 	              |  298 	  | usa          |
-|	california            | 	290 	  | usa          |
-|	kwazulu-natal         |  213 	  | south africa |
-|	western cape province |	 195 	  | south africa |
-|	western australia     | 	192 	  | australia    |
-|	eastern cape province |	 163 	  | south africa |
-|	south carolina 	      | 161 	usa
+|         Area  	       | Attacks |   Country    |  Ratio |
+| :-------------------: | :-----: |   :-----:    | :----: |
+| florida 	             |  1038   | usa          | 17.75% |
+| new south wales 	     |  486 	  | australia    |  8.31% |
+| queensland 	          |  311 	  | australia    |  5.31% |
+| hawaii 	              |  298 	  | usa          |  5.09% |
+|	california            | 	290 	  | usa          |  4.95% |
+|	kwazulu-natal         |  213 	  | south africa |  3.64% |
+|	western cape province |	 195 	  | south africa |  3.33% |
+|	western australia     | 	192 	  | australia    |  3.28% |
+|	eastern cape province |	 163 	  | south africa |  2.78% |
+|	south carolina 	      |  161 	  | usa          |  2.75% |
+
+From 2009 to 2018 (until June 2018), the top 10 areas were attacks occured represent nearly 60% of all attacks recorded for that period. Nearly 18% of all attacks  happened in the state of Florida (USA), followed by New South Wales (Australia) with around 8%. As such, almost 28% of all attacks happened in the USA.
+
+#### 4. Shark attacks fatality per activity ####
+The dataset brought information about the fatality of almost all attacks. The activities' fatality were analysed comparing them to each other, showed as **'Fatality Ratio'** and the intrinsic fatality rate as the **Case Fatality Rate (CFR)**. <br />
+
+The table below shows the analysis for the top 10 activities per absolute number of attacks: <br />
+
+|    Activity   |	Total Fatalities |	Fatality Ratio |	  CFR  |
+| :-----------: | :--------------: | :------------: |   :-:  |
+|	surfing 	     |       49 	       |      3.81% 	   | 5.04%  |
+|	swimming      |	     325 	       |     25.33%	    |	35.48% |
+|	fishing       |	      47         |	     3.66% 	   |	10.90% |
+|	spearfishing  |	      41         |	     3.19%	    |	12.31% |
+|	free diving   |	      26         |	     2.02%	    | 15.02% |
+|	bathing       |	      71         |	     5.53% 	   |	43.82% |
+|	wading 	      |       13         |	     1.01%	    | 8.72%  |
+|	body boarding |	      17         |	     1.32% 	   |	15.59% |
+|	standing 	    |       16         |	     1.24% 	   |	16.16% |
+|	scuba diving 	|       14         |	     1.09% 	   | 15.55% |
 
