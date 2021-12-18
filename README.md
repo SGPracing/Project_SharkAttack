@@ -8,7 +8,7 @@ Dataset: https://www.kaggle.com/teajay/global-shark-attacks (attacks.csv) <br />
 #### Primary: ####
 * to verify if there is an obvious trend in the number of attacks per year in the last 10 years of collected data; <br />
 * to determine the top 10 most dangerous activities; <br />
-* to identify the top 10 most dangerous areas in the last 10 years (2009 to 2018). <br />
+* to identify the top 10 most dangerous areas. <br />
 
 #### Secondary: ####
 * to stablish the case fatality rate (CFR) for the top 10 activities (as a single variable) <br />
@@ -81,7 +81,7 @@ The figure below illustrates the number of attacks per activity:<br >
 
 The 10 most recorded activities represents nearly 60% of the all dataset. Only surfing and swimming accounts for at least around 33% of all attacks recorded.<br />
 
-#### 3. Most dangerous areas from 2009 to 2018 ####
+#### 3. Most dangerous areas ####
 The variable 'area' in the dataset is extensive (**826 different areas**), with fairly little heterogeneity. Most variations were typos, which were easily detected, and adressed accordinly. <br />
 A verification was made to make sure that data was collected throughout the period for the ares in question. <br />
 
