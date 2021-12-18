@@ -105,7 +105,7 @@ The figure below illustrates the number of attacks per area:<br >
 <img width="403" alt="image" src="https://user-images.githubusercontent.com/92320460/146644536-f39bfc16-f385-463e-b5da-af0c4e3b9bac.png">
 
 
-The top 10 areas where attacks occured represent nearly 60% of all attacks recorded. Nearly 18% of all attacks happened in the state of Florida (USA), followed by New South Wales (Australia) with around 8%. As such, almost 28% of all attacks happened in the USA.
+The top 10 areas where attacks occured represent nearly 60% of all attacks recorded. Nearly 18% of all attacks happened in the state of Florida (USA), followed by New South Wales (Australia) with around 8%.
 
 #### 4. Shark attacks fatality per activity ####
 The dataset brought information about the fatality of almost all attacks. The activities' fatality were analysed comparing them to each other, showed as **'Fatality Ratio'** and the intrinsic fatality rate as the **Case Fatality Rate (CFR)**. <br />
