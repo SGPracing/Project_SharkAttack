@@ -5,13 +5,14 @@ Source: https://www.sharkattackfile.net/ <br />
 Dataset: https://www.kaggle.com/teajay/global-shark-attacks (attacks.csv) <br />
 
 ## Objectives
+
 #### Primary: ####
+* to stablish the case fatality rate (CFR) for the top 10 activities (as a single variable) <br />
+
+#### Secondary: ####
 * to verify if there is an obvious trend in the number of attacks per year in the last 10 years of collected data; <br />
 * to determine the top 10 most dangerous activities; <br />
 * to identify the top 10 most dangerous areas. <br />
-
-#### Secondary: ####
-* to stablish the case fatality rate (CFR) for the top 10 activities (as a single variable) <br />
 
 ## Background ##
 The dataset *attacks.csv* was sourced from the [**Shark Research Institute**](https://www.sharks.org/). The file contains extensive data, collected for centuries, about shark attacks in the entire World. The method of data collection is ignored, thus, inherent bias cannot be avoided. Moreover, there is significant data heterogeneity for most of the variables, in particular those necessary for the purpose of this study. 
@@ -21,7 +22,35 @@ Targetted data cleaning and analysis was performed under *Python* and *Pandas*, 
 
 ## Results ##
 
-#### 1. Trend of attacks throughout the last 10 years ####
+#### 1. Shark attacks fatality per activity ####
+The dataset brought information about the fatality of almost all attacks. The activities' fatality were analysed comparing them to each other, showed as **'Fatality Ratio'** and the intrinsic fatality rate as the **Case Fatality Rate (CFR)**. <br />
+
+The table below shows the analysis for the top 10 activities per absolute number of attacks: <br />
+
+|    Activity   |	Total Fatalities |	Fatality Ratio |	  CFR  |
+| :-----------: | :--------------: | :------------: |   :-:  |
+|	surfing 	     |       49 	       |      3.81% 	   |  5.04% |
+|	swimming      |	     325 	       |     25.33%	    |	35.48% |
+|	fishing       |	      47         |	     3.66% 	   |	10.90% |
+|	spearfishing  |	      41         |	     3.19%	    |	12.31% |
+|	free diving   |	      26         |	     2.02%	    | 15.02% |
+|	bathing       |	      71         |	     5.53% 	   |	43.82% |
+|	wading 	      |       13         |	     1.01%	    | 8.72%  |
+|	body boarding |	      17         |	     1.32% 	   |	15.59% |
+|	standing 	    |       16         |	     1.24% 	   |	16.16% |
+|	scuba diving 	|       14         |	     1.09% 	   | 15.55% |
+
+The figure below illustrates the number of fatalities per activity and their CFR: <br >
+<br />
+<img width="386" alt="image" src="https://user-images.githubusercontent.com/92320460/146645804-f9ad153b-a1c2-4635-80cf-5544e78a15b5.png">
+
+##### Some interesting considerations: #####
+* swimming accounts for a quarter (25%) of all attacks recorded. If you're attacked while swimming, you have a non-survival chance of 35%;
+* while surfing accounts for the biggest number of attacks (see point 2 above), the CFR for this activity is 5%, the lowest among the top 10 deadliest activities;
+* the highest CFR among the top 10 is *bathing*: 43.8%
+* the mean CFR of all activities is 17.9%
+
+#### 2. Trend of attacks throughout the last 10 years ####
 The analysis was initially made for the period from 2009 to 2018. However, the number of attacks computed in 2018 significant lower compared to the previous 9 years. The cause of this extreme variation was due by the fact that in 2018 the data has been collected only for the first six months (from January to June). The analysis was then readjusted to reject data from 2018 and to add those from 2008, keeping a 10-year interval. The next table shows the total number of attacks per year from 2008 to 2018: <br />
 
 | Year |	Attacks |    
@@ -56,7 +85,7 @@ After exclusion of year 2018, the anual trend line for the period from 2008 to 2
 ##### Data validation: #####
 After a non exhaustive reserch for similar data available in the web, a very reputed website called [**Our World in Data**](https://ourworldindata.org/grapher/total-shark-attacks-per-year) used the same source of data and shows almost identical results. A second exemple, a website called [**Statista**](https://www.statista.com/statistics/268324/number-of-shark-attacks-worldwide/), shows relative significant lower numbers of attacks overall, but its source of data is not disclosed for non-members. <br />
 
-#### 2. Top 10 most susceptible activities to shark attacks ####
+#### 3. Top 10 most susceptible activities to shark attacks ####
 The variable 'activity' in the dataframe is extremelly heterogeneous and extensive. Although effort has been made to minimize the impact of such variations, inumerous activities are described in many different ways, sometimes in a composite manner. Particularly, 'swimming', which is the second most susceptible out from this analysis, has inumerous attributes, which means this activity was undoubtly underestimated. <br />
 
 The table below shows the total number of attacks per activity and their representation ratio to the entire dataset: <br />
@@ -82,7 +111,7 @@ The figure below illustrates the number of attacks per activity:<br >
 * The 10 most recorded activities represents nearly 60% of the all dataset.<br />
 * Only surfing and swimming accounts for at least around 33% of all attacks recorded.<br />
 
-#### 3. Most dangerous areas ####
+#### 4. Most dangerous areas ####
 The variable 'area' in the dataset is extensive (**826 different areas**), with fairly little heterogeneity. Most variations were typos, which were easily detected, and adressed accordinly. <br />
 
 The table below shows the total number of attacks per area and their representation ratio:
@@ -104,36 +133,7 @@ The figure below illustrates the number of attacks per area:<br >
 <br />
 <img width="403" alt="image" src="https://user-images.githubusercontent.com/92320460/146644536-f39bfc16-f385-463e-b5da-af0c4e3b9bac.png">
 
-
 The top 10 areas where attacks occured represent nearly 60% of all attacks recorded. Nearly 18% of all attacks happened in the state of Florida (USA), followed by New South Wales (Australia) with around 8%.
-
-#### 4. Shark attacks fatality per activity ####
-The dataset brought information about the fatality of almost all attacks. The activities' fatality were analysed comparing them to each other, showed as **'Fatality Ratio'** and the intrinsic fatality rate as the **Case Fatality Rate (CFR)**. <br />
-
-The table below shows the analysis for the top 10 activities per absolute number of attacks: <br />
-
-|    Activity   |	Total Fatalities |	Fatality Ratio |	  CFR  |
-| :-----------: | :--------------: | :------------: |   :-:  |
-|	surfing 	     |       49 	       |      3.81% 	   |  5.04% |
-|	swimming      |	     325 	       |     25.33%	    |	35.48% |
-|	fishing       |	      47         |	     3.66% 	   |	10.90% |
-|	spearfishing  |	      41         |	     3.19%	    |	12.31% |
-|	free diving   |	      26         |	     2.02%	    | 15.02% |
-|	bathing       |	      71         |	     5.53% 	   |	43.82% |
-|	wading 	      |       13         |	     1.01%	    | 8.72%  |
-|	body boarding |	      17         |	     1.32% 	   |	15.59% |
-|	standing 	    |       16         |	     1.24% 	   |	16.16% |
-|	scuba diving 	|       14         |	     1.09% 	   | 15.55% |
-
-The figure below illustrates the number of fatalities per activity and their CFR: <br >
-<br />
-<img width="386" alt="image" src="https://user-images.githubusercontent.com/92320460/146645804-f9ad153b-a1c2-4635-80cf-5544e78a15b5.png">
-
-##### Some interesting considerations: #####
-* swimming accounts for a quarter (25%) of all attacks recorded. If you're attacked while swimming, you have a non-survival chance of 35%;
-* while surfing accounts for the biggest number of attacks (see point 2 above), the CFR for this activity is 5%, the lowest among the top 10 deadliest activities;
-* the highest CFR among the top 10 is *bathing*: 43.8%
-* the mean CFR of all activities is 17.9%
 
 ## Discussion ##
 An extensive and extremelly heterogenous dataframe was available. With clear objectives in mind, target data cleaning was performed in order to maximise accuracy of the results. <br />
