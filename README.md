@@ -38,8 +38,6 @@ The analysis was initially made for the period from 2009 to 2018. However, the n
 | 2009 |	120     |
 | 2008 |	122     |
 
-<img width="96" alt="image" src="https://user-images.githubusercontent.com/92320460/146644410-2c6b8359-3ee1-4540-8d56-74c504089fe1.png">
-
 
 The graphic below illustrates well the significant data disparity in 2018 compared to previous years: <br />
 <img width="391" alt="image" src="https://user-images.githubusercontent.com/92320460/146643892-240be8b1-3971-4354-98df-5c6d70ffefe7.png">
@@ -74,6 +72,10 @@ The table below shows the total number of attacks per activity and their represe
 | standing      |    99   |  1.71% |
 | scuba diving  |    90   |  1.56% |
 
+The figure below illustrates the number of attacks per activity:<br >
+<img width="395" alt="image" src="https://user-images.githubusercontent.com/92320460/146644488-3f1cb95a-6aad-4bcf-952e-9418f1e3a654.png">
+
+
 The 10 most recorded activities represents nearly 60% of the all dataset. Only surfing and swimming accounts for at least around 33% of all attacks recorded.<br />
 
 #### 3. Most dangerous areas from 2009 to 2018 ####
@@ -95,7 +97,11 @@ The table below shows the total number of attacks per area and their representat
 |	eastern cape province |	 163 	  | south africa |  2.78% |
 |	south carolina 	      |  161 	  | usa          |  2.75% |
 
-From 2009 to 2018 (until June 2018), the top 10 areas were attacks occured represent nearly 60% of all attacks recorded for that period. Nearly 18% of all attacks  happened in the state of Florida (USA), followed by New South Wales (Australia) with around 8%. As such, almost 28% of all attacks happened in the USA.
+The figure below illustrates the number of attacks per area:<br >
+<img width="403" alt="image" src="https://user-images.githubusercontent.com/92320460/146644536-f39bfc16-f385-463e-b5da-af0c4e3b9bac.png">
+
+
+The top 10 areas where attacks occured represent nearly 60% of all attacks recorded. Nearly 18% of all attacks happened in the state of Florida (USA), followed by New South Wales (Australia) with around 8%. As such, almost 28% of all attacks happened in the USA.
 
 #### 4. Shark attacks fatality per activity ####
 The dataset brought information about the fatality of almost all attacks. The activities' fatality were analysed comparing them to each other, showed as **'Fatality Ratio'** and the intrinsic fatality rate as the **Case Fatality Rate (CFR)**. <br />
@@ -114,6 +120,10 @@ The table below shows the analysis for the top 10 activities per absolute number
 |	body boarding |	      17         |	     1.32% 	   |	15.59% |
 |	standing 	    |       16         |	     1.24% 	   |	16.16% |
 |	scuba diving 	|       14         |	     1.09% 	   | 15.55% |
+
+The figure below illustrates the number of fatalities per activity and their CFR: <br >
+<img width="392" alt="image" src="https://user-images.githubusercontent.com/92320460/146644613-d872ef14-b83d-449a-8e24-b27d7e7606db.png">
+
 
 ##### Some interesting considerations: #####
 * swimming accounts for a quarter (25%) of all attacks recorded. If you're attacked while swimming, you have a non-survival chance of 35%;
