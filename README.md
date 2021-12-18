@@ -23,7 +23,7 @@ Targetted data cleaning and analysis was performed under *Python* and *Pandas*. 
 #### 1. Trend of attacks throughout the last 10 years ####
 The analysis was initially made for the period from 2009 to 2018. However, the number of attacks computed in 2018 significant lower compared to the previous 9 years. The cause of this extreme variation was due by the fact that in 2018 the data has been collected only for the first six months (from January to June). The analysis was then readjusted to reject data from 2018 and to add those from 2008, keeping a 10-year interval. The next table shows the total number of attacks per year from 2008 to 2018: <br />
 
-| Year |	Attacks |
+| Year |	Attacks |    
 | :--: | :-----: |
 |	2018 | 53      |
 | 2017 |	136     |
@@ -49,22 +49,40 @@ Anual trend line for the period from 2008 to 2017: <br />
 After a non exhaustive reserch for similar data available in the web, a very reputed website called [**Our World in Data**](https://ourworldindata.org/grapher/total-shark-attacks-per-year) used the same source of data and shows almost identical results. A second exemple, a website called [**Statista**](https://www.statista.com/statistics/268324/number-of-shark-attacks-worldwide/), shows relative significant lower numbers of attacks overall, but its source of data is not disclosed for non-members. <br />
 
 #### 2. Top 10 most susceptible activities to shark attacks ####
-
 The variable 'activity' in the dataframe is extremelly heterogeneous and extensive. Although effort has been made to minimize the impact of such variations, inumerous activities are described in many different ways, sometimes in a composite manner. Particularly, 'swimming', which is the second most susceptible out from this analysis, has inumerous attributes, which means this activity was undoubtly under estimated. <br />
 
-The table below shows the total number of attacks per activity throughout the entire dataset: <br />
+The table below shows the total number of attacks per activity and their representation ratio to the entire dataset: <br />
 
-| Activity      | Attacks |
-| :------:      | :-----: |
-| surfing       |   972   | 
-| swimming      |   916   |
-| fishing       |   431   |
-| spearfishing  |   333   |
-| free diving   |   173   |
-| bathing       |   162   |
-| wading        |   149   |
-| body boarding |   109   |
-| standing      |    99   |
-| scuba diving  |    90   |
+| Activity      | Attacks | Ratio  |
+| :------:      | :-----: | :----: |
+| surfing       |   972   | 16.88% |
+| swimming      |   916   | 15.90% |
+| fishing       |   431   |  7.48% |
+| spearfishing  |   333   |  5.78% |
+| free diving   |   173   |  3.00% |
+| bathing       |   162   |  2.81% |
+| wading        |   149   |  2.58% |
+| body boarding |   109   |  1.89% |
+| standing      |    99   |  1.71% |
+| scuba diving  |    90   |  1.56% |
 
+The 10 most recorded activities represents nearly 60% of the all dataset. Only surfing and swimming accounts for at least around 33% of all attacks recorded.<br />
+
+#### 3. Most dangerous areas ####
+The variable 'area' in the dataset is extensive (**826 different areas**), with fairly little heterogeneity. Most variations were typos, which were easily detected, and adressed accordinly. <br />
+
+The table below shows the total number of attacks per area and their representation ratio to the entire dataset:
+
+|         area  	       | attacks |   country    |
+| :-------------------: | :-----: |   :-----:    |
+| florida 	             |  1038   | usa          |
+| new south wales 	     |  486 	  | australia    |
+| queensland 	          |  311 	  | australia    |
+| hawaii 	              |  298 	  | usa          |
+|	california            | 	290 	  | usa          |
+|	kwazulu-natal         |  213 	  | south africa |
+|	western cape province |	 195 	  | south africa |
+|	western australia     | 	192 	  | australia    |
+|	eastern cape province |	 163 	  | south africa |
+|	south carolina 	      | 161 	usa
 
