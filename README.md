@@ -84,7 +84,6 @@ The figure below illustrates the number of attacks per activity:<br >
 
 #### 3. Most dangerous areas ####
 The variable 'area' in the dataset is extensive (**826 different areas**), with fairly little heterogeneity. Most variations were typos, which were easily detected, and adressed accordinly. <br />
-A verification was made to make sure that data was collected throughout the period for the ares in question. <br />
 
 The table below shows the total number of attacks per area and their representation ratio:
 
