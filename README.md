@@ -45,6 +45,7 @@ The graphic below illustrates well the significant data disparity in 2018 compar
 
 
 After exclusion of year 2018, the anual trend line for the period from 2008 to 2017: <br />
+<br />
 <img width="379" alt="image" src="https://user-images.githubusercontent.com/92320460/146643766-67b3f96b-520c-440a-af0e-2851c77fbf34.png">
 
 ##### Key variations: #####
@@ -74,6 +75,7 @@ The table below shows the total number of attacks per activity and their represe
 | scuba diving  |    90   |  1.56% |
 
 The figure below illustrates the number of attacks per activity:<br >
+<br />
 <img width="395" alt="image" src="https://user-images.githubusercontent.com/92320460/146644488-3f1cb95a-6aad-4bcf-952e-9418f1e3a654.png">
 
 
@@ -99,6 +101,7 @@ The table below shows the total number of attacks per area and their representat
 |	south carolina 	      |  161 	  | usa          |  2.75% |
 
 The figure below illustrates the number of attacks per area:<br >
+<br />
 <img width="403" alt="image" src="https://user-images.githubusercontent.com/92320460/146644536-f39bfc16-f385-463e-b5da-af0c4e3b9bac.png">
 
 
@@ -123,6 +126,7 @@ The table below shows the analysis for the top 10 activities per absolute number
 |	scuba diving 	|       14         |	     1.09% 	   | 15.55% |
 
 The figure below illustrates the number of fatalities per activity and their CFR: <br >
+<br />
 <img width="386" alt="image" src="https://user-images.githubusercontent.com/92320460/146645804-f9ad153b-a1c2-4635-80cf-5544e78a15b5.png">
 
 ##### Some interesting considerations: #####
