@@ -122,8 +122,7 @@ The table below shows the analysis for the top 10 activities per absolute number
 |	scuba diving 	|       14         |	     1.09% 	   | 15.55% |
 
 The figure below illustrates the number of fatalities per activity and their CFR: <br >
-<img width="392" alt="image" src="https://user-images.githubusercontent.com/92320460/146644613-d872ef14-b83d-449a-8e24-b27d7e7606db.png">
-
+<img width="386" alt="image" src="https://user-images.githubusercontent.com/92320460/146645804-f9ad153b-a1c2-4635-80cf-5544e78a15b5.png">
 
 ##### Some interesting considerations: #####
 * swimming accounts for a quarter (25%) of all attacks recorded. If you're attacked while swimming, you have a non-survival chance of 35%;
