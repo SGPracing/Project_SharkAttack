@@ -142,6 +142,8 @@ Of the 3 main variables for this analysis, by far, the most problematic was the 
 <br />
 Within the variable *'area'*, one could question if there has been a bias in the data collection. The fact that around 28% of all attacks recorded from 2009 to 2018 were in areas in the USA, one could suspect that collection resources might be more available in that country compared to others. Further investigation is needed. In addition, when solely analysing the dataset, every non recorded attack for a certain 'area' in a certain year cannot be certanly attributed to a true null result or a faillure in the data collection. <br />
 <br />
+In a similar way, no causuistry can be stablished for the variation in the number of attacks in the last-10-year trend analysis. However, one could make use o this information to guide in the elaboration of a hypothesis.<br />
+<br />
 It is also important to note that the variables 'area' and 'activity' were analysed independently of each other. For example, the fact that 'surfing' accounts for the biggest number of total attacks, it doesn't necessary mean it is the most dangerous activity in Florida, the area where most of the attacks happened in the last 10 years. Such cross checking (rankig the 'activity' for a specific 'area') is possible with the data availale, but it remains out of the scope of this particular analysis.
 
 ## Conclusion ##
