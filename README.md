@@ -79,7 +79,8 @@ The figure below illustrates the number of attacks per activity:<br >
 <img width="395" alt="image" src="https://user-images.githubusercontent.com/92320460/146644488-3f1cb95a-6aad-4bcf-952e-9418f1e3a654.png">
 
 
-The 10 most recorded activities represents nearly 60% of the all dataset. Only surfing and swimming accounts for at least around 33% of all attacks recorded.<br />
+* The 10 most recorded activities represents nearly 60% of the all dataset.<br />
+* Only surfing and swimming accounts for at least around 33% of all attacks recorded.<br />
 
 #### 3. Most dangerous areas ####
 The variable 'area' in the dataset is extensive (**826 different areas**), with fairly little heterogeneity. Most variations were typos, which were easily detected, and adressed accordinly. <br />
