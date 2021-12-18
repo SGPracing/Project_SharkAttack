@@ -20,7 +20,7 @@ Targetted data cleaning and analysis was performed under *Python* and *Pandas*. 
 
 ## Results ##
 
-#### Trend of attacks throughout the last 10 years ####
+#### **Trend of attacks throughout the last 10 years** ####
 The analysis was initially made for the period from 2009 to 2018. However, the number of attacks computed in 2018 significant lower compared to the previous 9 years. The cause of this extreme variation was due by the fact that in 2018 the data has been collected only for the first six months (from January to June). The analysis was then readjusted to reject data from 2018 and to add those from 2008, keeping a 10-year interval. The next table shows the total number of attacks per year from 2008 to 2018: <br />
 
 | Year |	Attacks |
