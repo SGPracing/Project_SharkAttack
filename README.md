@@ -127,6 +127,7 @@ It is also important to note that the variables 'area' and 'activity were analys
 * the top 10 most susceptible activities to shark attacks;
 * the CFR for each activity
 
+<img width="379" alt="image" src="https://user-images.githubusercontent.com/92320460/146643766-67b3f96b-520c-440a-af0e-2851c77fbf34.png">
 
 
 
