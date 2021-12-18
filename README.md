@@ -97,7 +97,7 @@ The table below shows the analysis for the top 10 activities per absolute number
 
 |    Activity   |	Total Fatalities |	Fatality Ratio |	  CFR  |
 | :-----------: | :--------------: | :------------: |   :-:  |
-|	surfing 	     |       49 	       |      3.81% 	   | 5.04%  |
+|	surfing 	     |       49 	       |      3.81% 	   |  5.04% |
 |	swimming      |	     325 	       |     25.33%	    |	35.48% |
 |	fishing       |	      47         |	     3.66% 	   |	10.90% |
 |	spearfishing  |	      41         |	     3.19%	    |	12.31% |
@@ -107,4 +107,11 @@ The table below shows the analysis for the top 10 activities per absolute number
 |	body boarding |	      17         |	     1.32% 	   |	15.59% |
 |	standing 	    |       16         |	     1.24% 	   |	16.16% |
 |	scuba diving 	|       14         |	     1.09% 	   | 15.55% |
+
+##### Some interesting considerations: #####
+* swimming accounts for a quarter (25%) of all attacks recorded. If you're attacked while swimming, you have a non-survival chance of 35%;
+* while surfing accounts for the biggest number of attacks (see point 2 above), the CFR for this activity is 5%, the lowest among the top 10 deadliest activities;
+* the highest CFR among the top 10 is *bathing*: 43.8%
+* the mean CFR of all activities is 17.9%
+
 
