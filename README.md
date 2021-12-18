@@ -57,7 +57,7 @@ After exclusion of year 2018, the anual trend line for the period from 2008 to 2
 After a non exhaustive reserch for similar data available in the web, a very reputed website called [**Our World in Data**](https://ourworldindata.org/grapher/total-shark-attacks-per-year) used the same source of data and shows almost identical results. A second exemple, a website called [**Statista**](https://www.statista.com/statistics/268324/number-of-shark-attacks-worldwide/), shows relative significant lower numbers of attacks overall, but its source of data is not disclosed for non-members. <br />
 
 #### 2. Top 10 most susceptible activities to shark attacks ####
-The variable 'activity' in the dataframe is extremelly heterogeneous and extensive. Although effort has been made to minimize the impact of such variations, inumerous activities are described in many different ways, sometimes in a composite manner. Particularly, 'swimming', which is the second most susceptible out from this analysis, has inumerous attributes, which means this activity was undoubtly under estimated. <br />
+The variable 'activity' in the dataframe is extremelly heterogeneous and extensive. Although effort has been made to minimize the impact of such variations, inumerous activities are described in many different ways, sometimes in a composite manner. Particularly, 'swimming', which is the second most susceptible out from this analysis, has inumerous attributes, which means this activity was undoubtly underestimated. <br />
 
 The table below shows the total number of attacks per activity and their representation ratio to the entire dataset: <br />
 
