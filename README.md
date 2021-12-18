@@ -38,6 +38,9 @@ The analysis was initially made for the period from 2009 to 2018. However, the n
 | 2009 |	120     |
 | 2008 |	122     |
 
+<img width="96" alt="image" src="https://user-images.githubusercontent.com/92320460/146644410-2c6b8359-3ee1-4540-8d56-74c504089fe1.png">
+
+
 The graphic below illustrates well the significant data disparity in 2018 compared to previous years: <br />
 <img width="391" alt="image" src="https://user-images.githubusercontent.com/92320460/146643892-240be8b1-3971-4354-98df-5c6d70ffefe7.png">
 
