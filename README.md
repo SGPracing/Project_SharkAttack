@@ -148,10 +148,11 @@ It is also important to note that the variables 'area' and 'activity' were analy
 
 ## Conclusion ##
 ##### Taking in consideration the numerous dataset limitations and targeted analysis of a global shark attack dataframe, this study demonstrates: #####
-* an uptrend in the number of shark attacks, with an overall increase of around 11,5% from 2008 to 2017;
-* a ranking of the most dangerous areas in the World;
-* the top 10 most susceptible activities to shark attacks;
 * the CFR for each activity.<br />
+* an uptrend in the number of shark attacks, with an overall increase of around 11,5% from 2008 to 2017;
+* a ranking of areas in the World by concentration of sharck attacks;
+* the top 10 most susceptible activities to shark attacks;
+
 
 
 
